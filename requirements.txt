@@ -1,0 +1,35 @@
+# Core Locust dependencies
+locust>=2.17.0
+requests>=2.31.0
+
+# Data processing and analysis
+pandas>=2.1.4
+matplotlib>=3.8.2
+seaborn>=0.13.0
+numpy>=1.24.3
+streamlit>=1.28.0
+# Configuration and utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Monitoring and metrics (optional)
+statsd>=4.0.1
+psutil>=5.9.6
+
+# Testing utilities
+faker>=20.1.0
+pytest>=7.4.3
+
+# Report generation
+jinja2>=3.1.2
+weasyprint>=60.2
+
+# Optional: For advanced monitoring
+# prometheus-client==0.19.0
+# influxdb-client==1.38.0
+locust
+fastapi
+uvicorn
+mysql-connector-python
+python-dotenv
+

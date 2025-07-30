@@ -1,0 +1,679 @@
+[
+  {
+    "url": "https://urbn--staging.sandbox.my.salesforce.com/services/apexrest/Customers",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer 00DWA000000gAfh!AQEAQAB5fUPNhjDKmn0nl3hbqx2qCsK5wsfLupzqnBxVJR6EP0M.3KquVwUP66PRKR.zIJolpgZ62OnWpJgiQ3ifKtz.wbcp"
+    },
+    "body": {
+      "customerAccount": {
+        "RecordType": {
+          "Name": "Terrain"
+        },
+        "PersonEmail": "testmay1@yopmail.com",
+        "Preferred_Language__c": "en-US",
+        "Ecometry_Migration__c": true,
+        "Primary_Digital_Customer_ID__c": "TRtestmay1@yopmail.com",
+        "MC_Send_Flag__c": true
+      },
+      "Emails": [
+        {
+          "Email_Address__c": "testmay1@yopmail.com",
+          "Current_Email__c": "true",
+          "MC_Send_Flag__c": true
+        }
+      ],
+      "Sites": [
+        {
+          "Site_ID__c": "tr-us",
+          "Website_Site_ID__c": "terrain",
+          "Marketing_Eligible__c": true,
+          "MC_Send_Flag__c": true,
+          "Email_preference__c": true,
+          "Email_Preference_Date__c": "2025-07-18T08:05:47",
+          "Email_Preference_Source__c": "Signup - US"
+        }
+      ]
+    },
+    "status_code": 200,
+    "response": "{\n  \"AccountName\" : \"NoLastName\",\n  \"ContactId\" : \"003WA00000TKx4rYAD\",\n  \"success\" : \"true\",\n  \"accountId\" : \"001WA00000KRF5tYAH\",\n  \"LoyaltyID\" : \"\",\n  \"LoyaltysignUpDate\" : \"\",\n  \"WebProfile_ID\" : \"\",\n  \"Last_Update_Source\" : \"\",\n  \"Emails Sent\" : \"1\",\n  \"SiteIds Sent\" : \"1\",\n  \"SiteId\" : \"tr-us\"\n}",
+    "auth_type": "Bearer Token",
+    "timestamp": "2025-07-30 21:35:52"
+  },
+  {
+    "timestamp": "2025-07-30 21:34:03",
+    "url": "https://urbn--staging.sandbox.my.salesforce.com/services/apexrest/Customers",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer 00DWA000000gAfh!AQEAQAB5fUPNhjDKmn0nl3hbqx2qCsK5wsfLupzqnBxVJR6EP0M.3KquVwUP66PRKR.zIJolpgZ62OnWpJgiQ3ifKtz.wbcp"
+    },
+    "body": {
+      "customerAccount": {
+        "RecordType": {
+          "Name": "Terrain"
+        },
+        "PersonEmail": "testmay1@yopmail.com",
+        "Preferred_Language__c": "en-US",
+        "Ecometry_Migration__c": true,
+        "Primary_Digital_Customer_ID__c": "TRtestmay1@yopmail.com",
+        "MC_Send_Flag__c": true
+      },
+      "Emails": [
+        {
+          "Email_Address__c": "testmay1@yopmail.com",
+          "Current_Email__c": "true",
+          "MC_Send_Flag__c": true
+        }
+      ],
+      "Sites": [
+        {
+          "Site_ID__c": "tr-us",
+          "Website_Site_ID__c": "terrain",
+          "Marketing_Eligible__c": true,
+          "MC_Send_Flag__c": true,
+          "Email_preference__c": true,
+          "Email_Preference_Date__c": "2025-07-18T08:05:47",
+          "Email_Preference_Source__c": "Signup - US"
+        }
+      ]
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "Bearer Token"
+  },
+  {
+    "timestamp": "2025-07-30 21:28:54",
+    "url": "https://postman-echo.com/basic-auth",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Basic cG9zdG1hbjpwYXNzd29yZA=="
+    },
+    "body": {
+      "hello": "world"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "Basic Auth"
+  },
+  {
+    "timestamp": "2025-07-30 21:27:56",
+    "url": "https://postman-echo.com/basic-auth",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Basic cG9zdG1hbjpwYXNzd29yZA=="
+    },
+    "body": {
+      "hello": "world"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "Basic Auth"
+  },
+  {
+    "timestamp": "2025-07-30 21:26:31",
+    "url": "https://postman-echo.com/basic-auth",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Basic cG9zdG1hbjpwYXNzd29yZA=="
+    },
+    "body": {
+      "hello": "world"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "Basic Auth"
+  },
+  {
+    "url": "https://postman-echo.com/basic-auth",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "hello": "world"
+    },
+    "status_code": 200,
+    "response": "{\n  \"authenticated\": true\n}",
+    "auth_type": "Basic Auth",
+    "timestamp": "2025-07-30 21:26:24"
+  },
+  {
+    "timestamp": "2025-07-30 21:19:02",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 21:01:04",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:59:53",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:59:06",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 6,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:58:49",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 6,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:58:20",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:54:27",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 20:53:40",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started",
+    "auth_type": "None"
+  },
+  {
+    "timestamp": "2025-07-30 19:44:51",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 4,
+    "spawn_rate": 3,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-30 19:44:06",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 4,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-30 19:43:22",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-30 19:41:05",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-30 19:28:31",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "status_code": 200,
+    "response": "{\n  \"id\":\"N300005412\",\n  \"key\":\"202506160946038100813160\",\n  \"brand\":\"02\",\n  \"brandName\":\"UrbanOutfitters\",\n  \"orderDate\":1750081561,\n  \"status\":\"Partially Awaiting Closure\",\n  \"emailAddress\":\"sschimpf@urbn.com\",\n  \"currencySymbol\":\"$\",\n  \"currencyCode\":\"USD\",\n  \"webProfileId\":\"741eb0e8-7dac-456b-bac7-892ffc37802a\",\n  \"languageCode\":\"en-US\",\n  \"messageNo\":\"000\",\n  \"furnitureCode\":\"N\",\n  \"returnMessageDays\":\"15\",\n  \"returnMessageCode\":\"R\",\n  \"orderPaymentStatus\":\"Approved\",\n  \"siteId\":\"2\",\n  \"reportEmptyPackage\":\"N\",\n  \"orderPurpose\":\"Sales Order\",\n  \"guestOrder\":\"No\",\n  \"changeShipAdressFlag\":\"false\",\n  \"cancelCode\":\"N\",\n  \"priceInfo\":{\n    \"rawSubtotal\":225.03,\n    \"currencyCode\":\"USD\",\n    \"tax\":1.5,\n    \"duty\":0.0,\n    \"vat\":{\n      \"total\":0.0\n    },\n    \"flatRateShipping\":0.0,\n    \"overWeightRateShipping\":0.0,\n    \"shipping\":0.0,\n    \"deposit\":0.0,\n    \"giftWrapAmount\":0.0,\n    \"discounts\":{\n      \"totalDiscount\":0.0\n    },\n    \"total\":221.55,\n    \"rawSubtotalBeforeDiscounts\":225.03,\n    \"merchAdjustments\":0.0,\n    \"shippingAdjustments\":0.0,\n    \"taxAdjustments\":0.0,\n    \"flatRateShipFeeAdjustments\":0.0,\n    \"giftWrapAdjustments\":0.0,\n    \"priceAdjTotalGiftWrap\":0.0,\n    \"totalAdj\":0.0,\n    \"merchafterAdj\":225.03,\n    \"shippingAfterAdj\":0.0,\n    \"taxAfterAdj\":1.5,\n    \"flatRateShipFeeAfterAdj\":0.0,\n    \"giftWrapAfterAdj\":0.0,\n    \"totalAfterAdj\":226.53,\n    \"totalReturnRestockFee\":0.0,\n    \"totalReturnRestockFeeTax\":0.0,\n    \"totalSmartLabelFee\":4.98,\n    \"totalreturnFee\":4.9799999999999995,\n    \"exchangeTotal\":0.0,\n    \"totalRefundAmount\":221.55,\n    \"amountRefunded\":221.55,\n    \"pendingRefund\":0.0\n  },\n  \"shipments\":[\n    {\n      \"address\":{\n        \"type\":\"CUSTOMER\",\n        \"name\":{\n          \"last\":\"schimpf\",\n          \"first\":\"stephanie\"\n        },\n        \"address1\":\"4610 spruce street\",\n        \"city\":\"Beverly Hills\",\n        \"region\":\"CA\",\n        \"country\":\"US\",\n        \"postalCode\":\"90210\",\n        \"dayPhone\":\"1111111111\",\n        \"collectionPointDetails\":null\n      },\n      \"notShipped\":[\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.05\",\n          \"status\":\"Return Refunded\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"2\",\n                  \"orderLineKey\":\"202506160946038100813162\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"87377610\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"87377610\",\n                  \"IPDesc\":\"OB SMCKD BODICE BUTTONFRN BLUE/BLEU L\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"28\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                },\n                {\n                  \"id\":\"1\",\n                  \"orderLineKey\":\"202506160946038100813161\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"100457696\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"100457696\",\n                  \"styleNumber\":\"100457696\",\n                  \"IPDesc\":\"3 - 88 DUMMY SKUS KELLY XXS\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"product\":{\n                      \"productId\":\"100457696\",\n                      \"displayName\":\"001088 DUMMY SKUS\",\n                      \"a15productid\":\"UO-100457696-000\"\n                    },\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/UO-100457696-000\"\n                  },\n                  \"colorName\":\"KELLY\",\n                  \"sizeName\":\"XXS\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"27\",\n                  \"returnReasonCode\":\"Quality Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":150.02,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":150.02,\n                \"tax\":1.0,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        },\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.100.ex\",\n          \"status\":\"Awaiting Closure\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"3\",\n                  \"orderLineKey\":\"202506160946038100870023\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"57494916\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"57494916\",\n                  \"IPDesc\":\"SANCTUARY THRILLS TEE GR MOTIF XL\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"faceOutImage\":\"//images.urbndata.com/is/image/Anthropologie/50297738_032_a\",\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/\"\n                  },\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Awaiting Closure\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"30\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"NPR\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":75.01,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":75.01,\n                \"tax\":0.5,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"returnIsGiftable\":\"N\",\n  \"creditCardFlagCode\":\"N\",\n  \"transType\":\"D\"\n}",
+    "auth_type": "None",
+    "timestamp": "2025-07-30 18:06:05"
+  },
+  {
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "status_code": 200,
+    "response": "{\n  \"id\":\"N300005412\",\n  \"key\":\"202506160946038100813160\",\n  \"brand\":\"02\",\n  \"brandName\":\"UrbanOutfitters\",\n  \"orderDate\":1750081561,\n  \"status\":\"Partially Awaiting Closure\",\n  \"emailAddress\":\"sschimpf@urbn.com\",\n  \"currencySymbol\":\"$\",\n  \"currencyCode\":\"USD\",\n  \"webProfileId\":\"741eb0e8-7dac-456b-bac7-892ffc37802a\",\n  \"languageCode\":\"en-US\",\n  \"messageNo\":\"000\",\n  \"furnitureCode\":\"N\",\n  \"returnMessageDays\":\"15\",\n  \"returnMessageCode\":\"R\",\n  \"orderPaymentStatus\":\"Approved\",\n  \"siteId\":\"2\",\n  \"reportEmptyPackage\":\"N\",\n  \"orderPurpose\":\"Sales Order\",\n  \"guestOrder\":\"No\",\n  \"changeShipAdressFlag\":\"false\",\n  \"cancelCode\":\"N\",\n  \"priceInfo\":{\n    \"rawSubtotal\":225.03,\n    \"currencyCode\":\"USD\",\n    \"tax\":1.5,\n    \"duty\":0.0,\n    \"vat\":{\n      \"total\":0.0\n    },\n    \"flatRateShipping\":0.0,\n    \"overWeightRateShipping\":0.0,\n    \"shipping\":0.0,\n    \"deposit\":0.0,\n    \"giftWrapAmount\":0.0,\n    \"discounts\":{\n      \"totalDiscount\":0.0\n    },\n    \"total\":221.55,\n    \"rawSubtotalBeforeDiscounts\":225.03,\n    \"merchAdjustments\":0.0,\n    \"shippingAdjustments\":0.0,\n    \"taxAdjustments\":0.0,\n    \"flatRateShipFeeAdjustments\":0.0,\n    \"giftWrapAdjustments\":0.0,\n    \"priceAdjTotalGiftWrap\":0.0,\n    \"totalAdj\":0.0,\n    \"merchafterAdj\":225.03,\n    \"shippingAfterAdj\":0.0,\n    \"taxAfterAdj\":1.5,\n    \"flatRateShipFeeAfterAdj\":0.0,\n    \"giftWrapAfterAdj\":0.0,\n    \"totalAfterAdj\":226.53,\n    \"totalReturnRestockFee\":0.0,\n    \"totalReturnRestockFeeTax\":0.0,\n    \"totalSmartLabelFee\":4.98,\n    \"totalreturnFee\":4.9799999999999995,\n    \"exchangeTotal\":0.0,\n    \"totalRefundAmount\":221.55,\n    \"amountRefunded\":221.55,\n    \"pendingRefund\":0.0\n  },\n  \"shipments\":[\n    {\n      \"address\":{\n        \"type\":\"CUSTOMER\",\n        \"name\":{\n          \"last\":\"schimpf\",\n          \"first\":\"stephanie\"\n        },\n        \"address1\":\"4610 spruce street\",\n        \"city\":\"Beverly Hills\",\n        \"region\":\"CA\",\n        \"country\":\"US\",\n        \"postalCode\":\"90210\",\n        \"dayPhone\":\"1111111111\",\n        \"collectionPointDetails\":null\n      },\n      \"notShipped\":[\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.05\",\n          \"status\":\"Return Refunded\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"2\",\n                  \"orderLineKey\":\"202506160946038100813162\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"87377610\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"87377610\",\n                  \"IPDesc\":\"OB SMCKD BODICE BUTTONFRN BLUE/BLEU L\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"28\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                },\n                {\n                  \"id\":\"1\",\n                  \"orderLineKey\":\"202506160946038100813161\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"100457696\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"100457696\",\n                  \"styleNumber\":\"100457696\",\n                  \"IPDesc\":\"3 - 88 DUMMY SKUS KELLY XXS\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"product\":{\n                      \"productId\":\"100457696\",\n                      \"displayName\":\"001088 DUMMY SKUS\",\n                      \"a15productid\":\"UO-100457696-000\"\n                    },\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/UO-100457696-000\"\n                  },\n                  \"colorName\":\"KELLY\",\n                  \"sizeName\":\"XXS\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"27\",\n                  \"returnReasonCode\":\"Quality Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":150.02,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":150.02,\n                \"tax\":1.0,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        },\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.100.ex\",\n          \"status\":\"Awaiting Closure\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"3\",\n                  \"orderLineKey\":\"202506160946038100870023\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"57494916\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"57494916\",\n                  \"IPDesc\":\"SANCTUARY THRILLS TEE GR MOTIF XL\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"faceOutImage\":\"//images.urbndata.com/is/image/Anthropologie/50297738_032_a\",\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/\"\n                  },\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Awaiting Closure\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"30\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"NPR\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":75.01,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":75.01,\n                \"tax\":0.5,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"returnIsGiftable\":\"N\",\n  \"creditCardFlagCode\":\"N\",\n  \"transType\":\"D\"\n}",
+    "timestamp": "2025-07-30 12:21:38"
+  },
+  {
+    "timestamp": "2025-07-30 12:20:52",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 3,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 21:25:31",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 20:09:03",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 20:07:28",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 20:04:33",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "status_code": 200,
+    "response": "{\n  \"id\":\"N300005412\",\n  \"key\":\"202506160946038100813160\",\n  \"brand\":\"02\",\n  \"brandName\":\"UrbanOutfitters\",\n  \"orderDate\":1750081561,\n  \"status\":\"Partially Awaiting Closure\",\n  \"emailAddress\":\"sschimpf@urbn.com\",\n  \"currencySymbol\":\"$\",\n  \"currencyCode\":\"USD\",\n  \"webProfileId\":\"741eb0e8-7dac-456b-bac7-892ffc37802a\",\n  \"languageCode\":\"en-US\",\n  \"messageNo\":\"000\",\n  \"furnitureCode\":\"N\",\n  \"returnMessageDays\":\"15\",\n  \"returnMessageCode\":\"R\",\n  \"orderPaymentStatus\":\"Approved\",\n  \"siteId\":\"2\",\n  \"reportEmptyPackage\":\"N\",\n  \"orderPurpose\":\"Sales Order\",\n  \"guestOrder\":\"No\",\n  \"changeShipAdressFlag\":\"false\",\n  \"cancelCode\":\"N\",\n  \"priceInfo\":{\n    \"rawSubtotal\":225.03,\n    \"currencyCode\":\"USD\",\n    \"tax\":1.5,\n    \"duty\":0.0,\n    \"vat\":{\n      \"total\":0.0\n    },\n    \"flatRateShipping\":0.0,\n    \"overWeightRateShipping\":0.0,\n    \"shipping\":0.0,\n    \"deposit\":0.0,\n    \"giftWrapAmount\":0.0,\n    \"discounts\":{\n      \"totalDiscount\":0.0\n    },\n    \"total\":221.55,\n    \"rawSubtotalBeforeDiscounts\":225.03,\n    \"merchAdjustments\":0.0,\n    \"shippingAdjustments\":0.0,\n    \"taxAdjustments\":0.0,\n    \"flatRateShipFeeAdjustments\":0.0,\n    \"giftWrapAdjustments\":0.0,\n    \"priceAdjTotalGiftWrap\":0.0,\n    \"totalAdj\":0.0,\n    \"merchafterAdj\":225.03,\n    \"shippingAfterAdj\":0.0,\n    \"taxAfterAdj\":1.5,\n    \"flatRateShipFeeAfterAdj\":0.0,\n    \"giftWrapAfterAdj\":0.0,\n    \"totalAfterAdj\":226.53,\n    \"totalReturnRestockFee\":0.0,\n    \"totalReturnRestockFeeTax\":0.0,\n    \"totalSmartLabelFee\":4.98,\n    \"totalreturnFee\":4.9799999999999995,\n    \"exchangeTotal\":0.0,\n    \"totalRefundAmount\":221.55,\n    \"amountRefunded\":221.55,\n    \"pendingRefund\":0.0\n  },\n  \"shipments\":[\n    {\n      \"address\":{\n        \"type\":\"CUSTOMER\",\n        \"name\":{\n          \"last\":\"schimpf\",\n          \"first\":\"stephanie\"\n        },\n        \"address1\":\"4610 spruce street\",\n        \"city\":\"Beverly Hills\",\n        \"region\":\"CA\",\n        \"country\":\"US\",\n        \"postalCode\":\"90210\",\n        \"dayPhone\":\"1111111111\",\n        \"collectionPointDetails\":null\n      },\n      \"notShipped\":[\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.05\",\n          \"status\":\"Return Refunded\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"2\",\n                  \"orderLineKey\":\"202506160946038100813162\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"87377610\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"87377610\",\n                  \"IPDesc\":\"OB SMCKD BODICE BUTTONFRN BLUE/BLEU L\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"28\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                },\n                {\n                  \"id\":\"1\",\n                  \"orderLineKey\":\"202506160946038100813161\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"100457696\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"100457696\",\n                  \"styleNumber\":\"100457696\",\n                  \"IPDesc\":\"3 - 88 DUMMY SKUS KELLY XXS\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"product\":{\n                      \"productId\":\"100457696\",\n                      \"displayName\":\"001088 DUMMY SKUS\",\n                      \"a15productid\":\"UO-100457696-000\"\n                    },\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/UO-100457696-000\"\n                  },\n                  \"colorName\":\"KELLY\",\n                  \"sizeName\":\"XXS\",\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Return Refunded\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"27\",\n                  \"returnReasonCode\":\"Quality Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"ACC\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":150.02,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":150.02,\n                \"tax\":1.0,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        },\n        {\n          \"isTruckDelivery\":false,\n          \"isMarketplace\":false,\n          \"statusNum\":\"1100.100.ex\",\n          \"status\":\"Awaiting Closure\",\n          \"nodes\":[\n            {\n              \"marketplaceShipmentInformation\":{\n                \"marketplaceCustomerId\":\"202406181433085934367125\"\n              },\n              \"items\":[\n                {\n                  \"id\":\"3\",\n                  \"orderLineKey\":\"202506160946038100870023\",\n                  \"linePrice\":75.01,\n                  \"lineTax\":\"0.50\",\n                  \"lineTaxAfterAdj\":\"0.00\",\n                  \"lineDiscount\":0.0,\n                  \"skuId\":\"57494916\",\n                  \"giftWrapFlag\":false,\n                  \"giftWrapAmount\":0.0,\n                  \"quantity\":1,\n                  \"maxCcRtnQty\":\"0\",\n                  \"naicsCode\":\"57494916\",\n                  \"IPDesc\":\"SANCTUARY THRILLS TEE GR MOTIF XL\",\n                  \"shipQty\":\"1.00\",\n                  \"returnCreateQty\":\"1.00\",\n                  \"returnRefundQty\":\"1.00\",\n                  \"returnReceiptQty\":\"0\",\n                  \"maxFCReturnQty\":\"1\",\n                  \"catalogInfo\":{\n                    \"faceOutImage\":\"//images.urbndata.com/is/image/Anthropologie/50297738_032_a\",\n                    \"pdpUrl\":\"http://www.urbanoutfitters.com/shop/product/\"\n                  },\n                  \"linePriceNet\":75.01,\n                  \"linePricePerUnit\":75.01,\n                  \"shippingSurcharge\":\"0\",\n                  \"shippingSurchargePerUnit\":\"0\",\n                  \"lineDiscountPerUnit\":0.0,\n                  \"linePriceNetPerUnit\":75.01,\n                  \"merchOrderAdj\":\"0\",\n                  \"netPriceAfterMerchOrderAdj\":\"75.01\",\n                  \"merchOrderAdjustments\":[\n                    {\n                      \"merchOrderAdjustment\":{\n                        \"adjustmentAmt\":0.0\n                      }\n                    }\n                  ],\n                  \"status\":\"Awaiting Closure\",\n                  \"orderLineQuantity\":\"1\",\n                  \"orderLineCancelQuantity\":\"0\",\n                  \"cancelFlag\":\"false\",\n                  \"isHazardous\":false,\n                  \"merchandiseClass\":\"4130\",\n                  \"returnReason\":\"30\",\n                  \"returnReasonCode\":\"Satisfaction Issues\",\n                  \"exchangeEligible\":false,\n                  \"return\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"claim\":{\n                    \"maxQuantity\":0,\n                    \"eligible\":false\n                  },\n                  \"returnLineType\":\"NPR\",\n                  \"isFinalSale\":false\n                }\n              ],\n              \"totals\":{\n                \"merchBeforeDiscount\":75.01,\n                \"merchDiscount\":0.0,\n                \"merchAfterDiscount\":75.01,\n                \"tax\":0.5,\n                \"shipFees\":0.0,\n                \"other\":0.0\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"returnIsGiftable\":\"N\",\n  \"creditCardFlagCode\":\"N\",\n  \"transType\":\"D\"\n}",
+    "timestamp": "2025-07-24 20:04:24"
+  },
+  {
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "body": {},
+    "status_code": 400,
+    "response": "{\"status\":\"Failure\",\"description\":\"Error description not available \"}",
+    "timestamp": "2025-07-24 20:00:54"
+  },
+  {
+    "timestamp": "2025-07-24 19:57:48",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 19:57:09",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 1,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-24 19:52:09",
+    "url": "http://localhost:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 3,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-17 10:49:59",
+    "url": " http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-17 10:28:13",
+    "url": "http://tibcostage.urbanout.com:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-17 10:20:14",
+    "url": "http://localhost:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-16 13:40:03",
+    "url": "http://localhost:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 4,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-16 09:42:19",
+    "url": "http://localhost:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 5,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  },
+  {
+    "timestamp": "2025-07-16 09:30:11",
+    "url": "http://localhost:8023/orderInquiry/v6",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "orderNo": "N300005412",
+      "organizationcode": "UO",
+      "source": "CCSUP"
+    },
+    "users": 6,
+    "spawn_rate": 1,
+    "run_time": "10s",
+    "status": "Locust test started"
+  }
+]
