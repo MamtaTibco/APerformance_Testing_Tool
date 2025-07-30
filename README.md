@@ -31,3 +31,20 @@
                     ├── requirements.txt
                     ├── streamlit_requirements.txt
                     ├── ui.css
+
+
+## 💡 Features
+
+- ✅ Send **GET**, **POST**, **PUT**, **DELETE** requests
+- ✅ Input custom headers and JSON body
+- ✅ Supports **Bearer Token** and **Basic Auth**
+- ✅ Run **Locust** performance test with parameters
+- ✅ Request **history tracking**, **replay**, and **delete**
+- ✅ Clean UI with `ui.css` overrides
+- ✅ Modular and extensible codebase
+
+
+
+### 1️⃣ Install dependencies
+
+pip install -r requirements.txt
